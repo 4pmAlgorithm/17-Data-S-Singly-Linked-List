@@ -25,6 +25,10 @@ class SinglyLinkedList{
     }
 }
 
-var list = new SinglyLinkedList()
-// list.push("HELLO")
-// list.push("GOODBYE")
+let list = new SinglyLinkedList()
+list.push("HELLO")
+list.push("GOODBYE")
+list.push(99)
+
+//console.log(first)
+console.log(list.head.next.next)
