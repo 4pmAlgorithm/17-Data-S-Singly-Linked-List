@@ -3,18 +3,19 @@ Singly Linked List definition
 2. linked list consist of nodes, and each node has a value and a pointer to another node or null.
 
 -only one direction 
--ONEWAY 
-
+-ONEWAY
 
 
 +--+---------------------+----------------------------------+
-|  |         List        |              Arrays              |
+|  |   Linked  List      |              Arrays              |
 +--+---------------------+----------------------------------+
 +--+---------------------+----------------------------------+
 |  |        NO IDX       |                IDX               |
 +--+---------------------+----------------------------------+
+|  |                     |                                  |
 |  | connected via nodes |      insertion and deletion      |
 |  |   w/ a next pointer |          can be expensive        |
 +--+---------------------+----------------------------------+
+|  | sequential access:  |        direct access:            |
 |  |   NO random access  | quick access at the specific IDX |
 +--+---------------------+----------------------------------+
